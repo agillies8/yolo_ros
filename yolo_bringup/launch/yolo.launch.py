@@ -61,7 +61,7 @@ def generate_launch_description():
         threshold = LaunchConfiguration("threshold")
         threshold_cmd = DeclareLaunchArgument(
             "threshold",
-            default_value="0.5",
+            default_value="0.85",
             description="Minimum probability of a detection to be published",
         )
 
